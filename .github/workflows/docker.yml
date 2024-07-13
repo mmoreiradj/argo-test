@@ -25,6 +25,9 @@ jobs:
   docker:
     permissions:
       packages: write
+      contents: read
+      attestations: write
+      id-token: write
     name: Docker
     runs-on: ubuntu-latest
     steps:
